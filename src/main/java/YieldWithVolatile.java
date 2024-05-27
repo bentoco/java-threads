@@ -1,5 +1,5 @@
 public class YieldWithVolatile {
-    /** volatile say to program ways take value from the disk, not from mem cache,
+    /** volatile say to program ways take value from the RAM, not from local cache,
     * to avoid unsynchronised data **/
     private static volatile int n = 0;
     private static volatile boolean isReady = false;
